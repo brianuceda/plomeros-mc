@@ -1,0 +1,389 @@
+#Fire Pickaxe Configuration
+#The Fire Pickaxe automatically smelts ores, grants fire resistance, melts snow/ice, and creates fire trails
+[firePickaxe]
+	#Enable automatic ore smelting when mining with Fire Pickaxe
+	enableSmeltOres = true
+	#Duration in ticks for fire resistance effect when mining (20 ticks = 1 second)
+	# Default: 400
+	# Range: 0 ~ 6000
+	fireResistanceDuration = 400
+	#Chance to create fire on nearby empty blocks when mining (0.0 = never, 1.0 = always)
+	# Default: 0.15
+	# Range: 0.0 ~ 1.0
+	fireTrailChance = 0.15
+	#Chance to drop an additional smelted item when mining ores
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	extraSmeltedItemChance = 0.25
+	#Duration in ticks that enemies burn when hit (20 ticks = 1 second)
+	# Default: 200
+	# Range: 0 ~ 1200
+	enemyFireTicks = 200
+	#Mining speed multiplier for Netherrack and Magma blocks
+	# Default: 50.0
+	# Range: 1.0 ~ 100.0
+	netherBlockSpeed = 50.0
+
+#Void Pickaxe Configuration
+#The Void Pickaxe has a toggleable filter to void unwanted blocks and gives XP bonuses for valuable ores
+[voidPickaxe]
+	#Enable the void filter toggle feature
+	enableFilter = true
+	#Default state of the void filter when pickaxe is first created
+	defaultFilterState = false
+	#List of blocks that will be voided when filter is enabled (Format: namespace:block_id)
+	filteredBlocks = ["minecraft:stone", "minecraft:cobblestone", "minecraft:deepslate", "minecraft:cobbled_deepslate", "minecraft:diorite", "minecraft:andesite", "minecraft:granite", "minecraft:tuff", "minecraft:dirt", "minecraft:gravel", "minecraft:netherrack"]
+	#Chance to give extra XP when mining valuable ores
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	oreXPChance = 0.2
+	#Minimum extra XP given when ore XP bonus triggers
+	# Default: 3
+	# Range: 0 ~ 100
+	minXP = 3
+	#Maximum additional XP added to minimum (total = min + random(0, maxBonus))
+	# Default: 5
+	# Range: 0 ~ 100
+	maxXPBonus = 5
+
+#TNT Pickaxe Configuration
+#The TNT Pickaxe creates explosions when mining ores and grants damage resistance
+[tntPickaxe]
+	#Enable TNT explosions when mining ores
+	enableExplosions = true
+	#Explosion radius for normal ores in blocks (larger values cause more destruction and lag)
+	# Default: 2.5
+	# Range: 0.5 ~ 10.0
+	explosionSize = 2.5
+	#Explosion radius for coal blocks specifically
+	# Default: 4.0
+	# Range: 0.5 ~ 10.0
+	coalBlockExplosionSize = 4.0
+	#Duration in ticks for damage resistance effect
+	# Default: 200
+	# Range: 0 ~ 1200
+	damageResistanceDuration = 200
+	#Duration in ticks for fire resistance effect
+	# Default: 200
+	# Range: 0 ~ 1200
+	fireResistanceDuration = 200
+	#Mining speed multiplier for ore blocks
+	# Default: 8.0
+	# Range: 1.0 ~ 50.0
+	oreSpeed = 8.0
+	#Mining speed multiplier for TNT and Obsidian blocks
+	# Default: 15.0
+	# Range: 1.0 ~ 50.0
+	tntObsidianSpeed = 15.0
+
+#Shadow Pickaxe Configuration
+#The Shadow Pickaxe grants speed, haste, night vision, invisibility, and has a chance to teleport
+[shadowPickaxe]
+	#Duration in ticks for speed, haste, and night vision effects
+	# Default: 1200
+	# Range: 0 ~ 6000
+	speedDuration = 1200
+	#Duration in ticks for invisibility when mining ores
+	# Default: 600
+	# Range: 0 ~ 6000
+	invisibilityDuration = 600
+	#Chance to teleport when mining rare ores (diamond, emerald, ancient debris)
+	# Default: 0.3
+	# Range: 0.0 ~ 1.0
+	teleportChance = 0.3
+	#Maximum distance in blocks for teleportation
+	# Default: 10
+	# Range: 5 ~ 50
+	teleportRange = 10
+	#Enable random teleportation feature
+	enableTeleport = true
+	#Chance to gain brief levitation when mining ores
+	# Default: 0.15
+	# Range: 0.0 ~ 1.0
+	levitationChance = 0.15
+	#Duration in ticks for levitation effect
+	# Default: 20
+	# Range: 0 ~ 100
+	levitationDuration = 20
+	#Duration in ticks that mobs are blinded when hit
+	# Default: 200
+	# Range: 0 ~ 1200
+	mobBlindnessDuration = 200
+	#Whether hitting mobs removes their aggression
+	removeMobAggro = true
+
+#Bone Pickaxe Configuration
+#The Bone Pickaxe drops bones and bone meal when mining ores and grants regeneration
+[bonePickaxe]
+	#Chance to drop bones when mining ores
+	# Default: 0.6
+	# Range: 0.0 ~ 1.0
+	dropBoneRate = 0.6
+	#Minimum bones dropped when bone drop triggers
+	# Default: 1
+	# Range: 0 ~ 10
+	minBones = 1
+	#Maximum additional bones (total = min + random(0, maxBonus))
+	# Default: 2
+	# Range: 0 ~ 10
+	maxBonusBones = 2
+	#Chance to drop bone meal when mining ores
+	# Default: 0.4
+	# Range: 0.0 ~ 1.0
+	boneMealChance = 0.4
+	#Minimum bone meal dropped when triggered
+	# Default: 1
+	# Range: 0 ~ 10
+	minBoneMeal = 1
+	#Maximum additional bone meal
+	# Default: 3
+	# Range: 0 ~ 10
+	maxBonusBoneMeal = 3
+	#Duration in ticks for regeneration effect when mining ores
+	# Default: 100
+	# Range: 0 ~ 1200
+	regenerationDuration = 100
+	#Chance to gain absorption hearts when mining ores
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	absorptionChance = 0.2
+	#Duration in ticks for absorption effect
+	# Default: 600
+	# Range: 0 ~ 6000
+	absorptionDuration = 600
+
+#Vein Pickaxe Configuration
+#The Vein Pickaxe automatically mines entire ore veins. Crouch to disable
+[veinPickaxe]
+	#Enable vein mining feature entirely
+	enable = true
+	#Maximum number of blocks that can be mined in one vein (higher values may cause lag)
+	# Default: 64
+	# Range: 1 ~ 256
+	maxVeinSize = 64
+	#Whether to check diagonal blocks when searching for vein (disabling makes it only check adjacent N/S/E/W/U/D blocks)
+	checkDiagonals = true
+	#Whether crouching disables vein mining for single block mining
+	crouchToDisable = true
+	#Whether vein is mined instantly or with delay (instant mining may cause lag on large veins)
+	instantMine = false
+
+#Coal Pickaxe Configuration
+#The Coal Pickaxe grants night vision in dark areas and bonus coal drops and XP
+[coalPickaxe]
+	#Duration in ticks for night vision effect in dark areas
+	# Default: 400
+	# Range: 0 ~ 6000
+	nightVisionDuration = 400
+	#Maximum light level to trigger night vision (0-15)
+	# Default: 8
+	# Range: 0 ~ 15
+	lightLevelThreshold = 8
+	#Chance to drop extra coal when mining coal ore
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	extraCoalChance = 0.5
+	#Minimum extra coal dropped
+	# Default: 1
+	# Range: 0 ~ 10
+	minExtraCoal = 1
+	#Maximum additional coal
+	# Default: 3
+	# Range: 0 ~ 10
+	maxBonusCoal = 3
+	#Minimum extra XP for mining coal ore
+	# Default: 2
+	# Range: 0 ~ 100
+	coalXPMin = 2
+	#Maximum additional XP for coal ore
+	# Default: 3
+	# Range: 0 ~ 100
+	coalXPBonus = 3
+	#Chance to give XP bonus for other ores
+	# Default: 0.3
+	# Range: 0.0 ~ 1.0
+	otherOreXPChance = 0.3
+	#Minimum XP for other ores
+	# Default: 1
+	# Range: 0 ~ 100
+	otherOreXPMin = 1
+	#Maximum additional XP for other ores
+	# Default: 2
+	# Range: 0 ~ 100
+	otherOreXPBonus = 2
+	#Mining speed multiplier for coal ore
+	# Default: 50.0
+	# Range: 1.0 ~ 100.0
+	coalOreSpeed = 50.0
+	#Mining speed multiplier for other ores
+	# Default: 5.0
+	# Range: 1.0 ~ 50.0
+	otherOreSpeed = 5.0
+
+#Natural Pickaxe Configuration
+#The Natural Pickaxe converts cobblestone to mossy variants and preserves grass blocks
+[naturalPickaxe]
+	#Enable moss conversion feature
+	enableConversion = true
+	#Convert cobblestone to mossy cobblestone
+	convertCobblestone = true
+	#Convert stone bricks to mossy stone bricks
+	convertStoneBricks = true
+	#Convert cobblestone stairs to mossy variant
+	convertStairs = true
+	#Convert cobblestone slabs to mossy variant
+	convertSlabs = true
+	#Convert cobblestone walls to mossy variant
+	convertWalls = true
+	#Preserve grass blocks when mining (drop grass block instead of dirt)
+	preserveGrass = true
+	#Convert regular stone to mossy cobblestone
+	convertStoneToMossy = true
+
+#Time Pickaxe Configuration
+#The Time Pickaxe has a chance to mine instantly, repairs itself, accelerates plant growth, and slows hostile mobs
+[timePickaxe]
+	#Chance to mine block instantly without breaking animation
+	# Default: 0.15
+	# Range: 0.0 ~ 1.0
+	instantMineChance = 0.15
+	#Chance to repair durability when mining
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	repairChance = 0.05
+	#Durability points restored when repair triggers
+	# Default: 5
+	# Range: 1 ~ 50
+	repairAmount = 5
+	#Chance to accelerate nearby plant growth when mining
+	# Default: 0.3
+	# Range: 0.0 ~ 1.0
+	plantGrowthChance = 0.3
+	#Radius in blocks to check for plants to grow
+	# Default: 2
+	# Range: 0 ~ 10
+	plantGrowthRange = 2
+	#Duration in ticks that hostile mobs are slowed
+	# Default: 100
+	# Range: 0 ~ 1200
+	mobSlowDuration = 100
+	#Radius in blocks to detect and slow hostile mobs
+	# Default: 8
+	# Range: 0 ~ 32
+	mobSlowRadius = 8
+	#Duration in ticks for speed and haste effects
+	# Default: 200
+	# Range: 0 ~ 6000
+	speedDuration = 200
+
+#Fortune Pickaxe Configuration
+#The Fortune Pickaxe grants permanent Luck effect, extra drop chances, and XP bonuses
+[fortunePickaxe]
+	#Duration in ticks for Luck effect when mining
+	# Default: 1200
+	# Range: 0 ~ 6000
+	luckDuration = 1200
+	#Amplifier level for Luck effect (0 = Luck I, 1 = Luck II, etc.)
+	# Default: 4
+	# Range: 0 ~ 10
+	luckLevel = 4
+	#Chance to drop extra items when mining ores
+	# Default: 0.3
+	# Range: 0.0 ~ 1.0
+	extraDropChance = 0.3
+	#Chance to trigger jackpot (massive extra drops)
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	jackpotChance = 0.1
+	#Number of extra items dropped during jackpot
+	# Default: 3
+	# Range: 1 ~ 10
+	jackpotMultiplier = 3
+	#Extra XP for coal ore
+	# Default: 2
+	# Range: 0 ~ 100
+	coalXP = 2
+	#Extra XP for iron ore
+	# Default: 5
+	# Range: 0 ~ 100
+	ironXP = 5
+	#Extra XP for gold ore
+	# Default: 7
+	# Range: 0 ~ 100
+	goldXP = 7
+	#Extra XP for diamond ore
+	# Default: 10
+	# Range: 0 ~ 100
+	diamondXP = 10
+	#Extra XP for emerald ore
+	# Default: 15
+	# Range: 0 ~ 100
+	emeraldXP = 15
+	#Extra XP for ancient debris
+	# Default: 20
+	# Range: 0 ~ 100
+	ancientDebrisXP = 20
+
+#Magnet Pickaxe Configuration
+#The Magnet Pickaxe automatically attracts nearby items and XP orbs
+[magnetPickaxe]
+	#Radius in blocks to attract items and XP
+	# Default: 10.0
+	# Range: 1.0 ~ 32.0
+	attractionRange = 10.0
+	#How often (in ticks) to pull items when holding pickaxe (lower values = more frequent but more CPU usage)
+	# Default: 10
+	# Range: 1 ~ 100
+	attractionTickRate = 10
+	#Maximum speed multiplier for item attraction
+	# Default: 0.3
+	# Range: 0.1 ~ 2.0
+	itemSpeed = 0.3
+	#Maximum speed multiplier for XP orb attraction
+	# Default: 0.4
+	# Range: 0.1 ~ 2.0
+	xpSpeed = 0.4
+	#Chance to repair durability when mining
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	repairChance = 0.05
+	#Enable item attraction
+	attractItems = true
+	#Enable XP orb attraction
+	attractXP = true
+	#Whether magnet only works when pickaxe is held (false = works in inventory)
+	onlyWhenHeld = true
+
+#Laser Pickaxe Configuration
+#The Laser Pickaxe mines in a line through multiple blocks in the direction you're facing
+[laserPickaxe]
+	#Enable laser feature entirely
+	enable = true
+	#Number of blocks laser breaks in a line
+	# Default: 6
+	# Range: 1 ~ 20
+	blocksBreak = 6
+	#Additional blocks that the laser can break (Format: namespace:block_id)
+	extraBlocks = ["minecraft:coal_ore", "minecraft:iron_ore"]
+	#Minimum durability required to use laser (prevents breaking pickaxe)
+	# Default: 10
+	# Range: 0 ~ 100
+	minDurability = 10
+	#Duration in ticks for speed and haste effects when using laser
+	# Default: 100
+	# Range: 0 ~ 1200
+	speedDuration = 100
+	#Amplifier level for Haste effect (0 = Haste I, 1 = Haste II, etc.)
+	# Default: 2
+	# Range: 0 ~ 5
+	hasteLevel = 2
+	#Amplifier level for Speed effect
+	# Default: 1
+	# Range: 0 ~ 5
+	speedLevel = 1
+	#Whether laser stops when hitting unbreakable block (false = skips over)
+	stopOnNonBreakable = true
+	#Durability cost per block broken by laser
+	# Default: 1
+	# Range: 0 ~ 10
+	durabilityPerBlock = 1

@@ -1,0 +1,41 @@
+==== Connector Mixin Patch Audit Summary ====
+Successful: 3
+Partial: 1
+Failed: 0
+Success rate: 100.00%        Accuracy: 87.50%
+=============================================
+
+Mixin method org/betterx/bclib/mixin/common/shears/PumpkinBlockMixin bclib_isShears(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/Item;Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;)Z
+  >> Using org.sinytra.adapter.patch.transformer.operation.unit.ModifyInjectionPoint
+     - Change injection point to Lnet/minecraft/world/item/ItemStack;canPerformAction(Lnet/neoforged/neoforge/common/ItemAbility;)Z
+  >> Using org.sinytra.adapter.patch.transformer.operation.unit.ModifyMethodParams
+     - Change descriptor to (Lnet/minecraft/world/item/ItemStack;Lnet/neoforged/neoforge/common/ItemAbility;Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;)Z
+
+Mixin method org/betterx/bclib/mixin/common/shears/TripWireBlockMixin bclib_isShears(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/Item;Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;)Z
+  >> Using org.sinytra.adapter.patch.transformer.operation.unit.ModifyInjectionPoint
+     - Change injection point to Lnet/minecraft/world/item/ItemStack;canPerformAction(Lnet/neoforged/neoforge/common/ItemAbility;)Z
+  >> Using org.sinytra.adapter.patch.transformer.operation.unit.ModifyMethodParams
+     - Change descriptor to (Lnet/minecraft/world/item/ItemStack;Lnet/neoforged/neoforge/common/ItemAbility;Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;)Z
+
+Mixin method org/betterx/bclib/mixin/common/shears/MushroomCowMixin bclib_isShears(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/Item;Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;)Z
+  >> Using org.sinytra.adapter.patch.transformer.operation.unit.DisableMixin
+     - Remove mixin method
+
+Mixin method org/betterx/bclib/mixin/common/shears/SnowGolemMixin bclib_isShears(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/Item;Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;)Z
+  >> Using org.sinytra.adapter.patch.transformer.operation.unit.DisableMixin
+     - Remove mixin method
+
+Mixin method org/betterx/bclib/mixin/common/shears/SheepMixin bclib_isShears(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/Item;Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;)Z
+  >> Using org.sinytra.adapter.patch.transformer.operation.unit.DisableMixin
+     - Remove mixin method
+
+Mixin method org/betterx/betternether/mixin/common/MushroomMixin canStay(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
+  >> Using org.sinytra.adapter.patch.transformer.operation.unit.ModifyInjectionPoint
+     - Change injection point to Lnet/neoforged/neoforge/common/util/TriState;isTrue()Z
+
+Mixin method org/betterx/betternether/mixin/common/piglin/PiglinAiMixin bn_isWearingGold(Lnet/minecraft/core/Holder;Lnet/minecraft/core/Holder;Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;)Z
+  >> Using org.sinytra.adapter.patch.transformer.operation.unit.ModifyInjectionPoint
+     - Change injection point to Lnet/minecraft/world/item/ItemStack;makesPiglinsNeutral(Lnet/minecraft/world/entity/LivingEntity;)Z
+  >> Using org.sinytra.adapter.patch.transformer.operation.param.TransformParameters
+     - Change descriptor to (Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;)Z
+

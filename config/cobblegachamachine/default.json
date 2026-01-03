@@ -1,0 +1,62 @@
+{
+  "poolSize": 15,
+  "megashowdownItems": true,
+  "coinsToSpin": 1,
+  "skipAnimationButton": true,
+  "capsules": {
+    "normal": {
+      "capsuleWeight": 87.0,
+      "pokemonSpawnChance": 0.15,
+      "shinyChance": 2048,
+      "pokemonMinLevel": 5,
+      "pokemonMaxLevel": 20,
+      "pokemonPool": [
+        "common"
+      ],
+      "poolMinWeight": 0.15,
+      "poolMaxWeight": 100.0,
+      "customList": []
+    },
+    "ultra_rare": {
+      "capsuleWeight": 2.0,
+      "pokemonSpawnChance": 0.5,
+      "shinyChance": 512,
+      "pokemonMinLevel": 30,
+      "pokemonMaxLevel": 50,
+      "pokemonPool": [
+        "ultra-rare"
+      ],
+      "poolMinWeight": 0.002,
+      "poolMaxWeight": 10.0,
+      "customList": []
+    },
+    "legendary": {
+      "capsuleWeight": 0.35,
+      "pokemonSpawnChance": 1.0,
+      "shinyChance": 256,
+      "pokemonMinLevel": 50,
+      "pokemonMaxLevel": 100,
+      "pokemonPool": [
+        "legendary",
+        "mythical"
+      ],
+      "poolMinWeight": 0.0,
+      "poolMaxWeight": 0.0,
+      "customList": []
+    },
+    "rare": {
+      "capsuleWeight": 10.0,
+      "pokemonSpawnChance": 0.25,
+      "shinyChance": 1024,
+      "pokemonMinLevel": 15,
+      "pokemonMaxLevel": 35,
+      "pokemonPool": [
+        "uncommon",
+        "rare"
+      ],
+      "poolMinWeight": 0.0032,
+      "poolMaxWeight": 100.0,
+      "customList": []
+    }
+  }
+}

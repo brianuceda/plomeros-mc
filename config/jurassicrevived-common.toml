@@ -1,0 +1,19 @@
+#If true, power systems are enabled. If false, disabled. Requires a restart to take effect
+requirePower = false
+#If true, dinosaurs spawn naturally in the world. If false, dinosaurs don't naturally spawn. Requires a restart to take effect, and will not affect existing dinosaurs in the world.
+naturalDinoSpawning = false
+#Max items transferred per second by pipes
+#Default: 64
+# Default: 64
+# Range: 0 ~ 1024
+itemsPerSecond = 64
+#Max millibuckets transferred per second by pipes
+#Default: 1,000
+# Default: 1000
+# Range: 0 ~ 100000
+milliBucketsPerSecond = 1000
+#Max FE transferred per second by pipes
+#Default: 2,048
+# Default: 2048
+# Range: 0 ~ 2097152
+fePerSecond = 2048

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1767393533857
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1767398733867
+  login: 1767398300838
+money: '0'
+last-account-name: TSM_Kirigaya
+logoutlocation:
+  world: b89b4313-b75d-4152-b5fb-d7b18f132541
+  world-name: world
+  x: 228.62566608946636
+  y: 65.0
+  z: 401.4242546818993
+  yaw: 127.725341796875
+  pitch: 32.37995147705078
+lastlocation:
+  world: 05f7f424-8b6b-4b85-a782-19e54ef4a42e
+  world-name: world
+  x: -154.30000001192093
+  y: -19.917592890165434
+  z: 175.59045558873365
+  yaw: 118.75901794433594
+  pitch: 27.34560775756836

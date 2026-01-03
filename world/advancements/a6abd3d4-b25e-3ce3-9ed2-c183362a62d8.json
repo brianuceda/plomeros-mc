@@ -1,0 +1,382 @@
+{
+  "aquaculture:recipes/combat/neptunium_helmet": {
+    "criteria": {
+      "has_items": "2026-01-02 18:48:53 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/combat/neptunium_sword": {
+    "criteria": {
+      "has_items": "2026-01-02 18:48:53 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/neptunium_fillet_knife": {
+    "criteria": {
+      "has_items": "2026-01-02 18:48:53 -0500"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2026-01-02 18:48:53 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-01-02 18:48:53 -0500"
+    },
+    "done": true
+  },
+  "adorabuild_structures:overworld_structures": {
+    "criteria": {
+      "always": "2026-01-02 18:48:53 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/neptunium_fishing_rod": {
+    "criteria": {
+      "has_items": "2026-01-02 18:48:53 -0500"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/bouquet": {
+    "criteria": {
+      "has_item": "2026-01-02 18:48:53 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/gold_fillet_knife": {
+    "criteria": {
+      "has_items": "2026-01-02 18:48:53 -0500"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:bornin_chaos": {
+    "criteria": {
+      "bornin_chaos_0": "2026-01-02 18:48:53 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/aquaculture/tackle_box": {
+    "criteria": {
+      "has_items": "2026-01-02 18:48:53 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/iron_fishing_rod": {
+    "criteria": {
+      "has_iron": "2026-01-02 18:48:53 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/food/turtle_soup": {
+    "criteria": {
+      "has_items": "2026-01-02 18:48:53 -0500"
+    },
+    "done": true
+  },
+  "betterdeserttemples:root": {
+    "criteria": {
+      "always": "2026-01-02 18:48:53 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/neptunium_hoe": {
+    "criteria": {
+      "has_items": "2026-01-02 18:48:53 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/neptunium_shovel": {
+    "criteria": {
+      "has_items": "2026-01-02 18:48:53 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/diamond_fishing_rod": {
+    "criteria": {
+      "has_diamond": "2026-01-02 18:48:53 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/neptunium_pickaxe": {
+    "criteria": {
+      "has_items": "2026-01-02 18:48:53 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/combat/neptunium_chestplate": {
+    "criteria": {
+      "has_items": "2026-01-02 18:48:53 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/combat/neptunium_boots": {
+    "criteria": {
+      "has_items": "2026-01-02 18:48:53 -0500"
+    },
+    "done": true
+  },
+  "superbwarfare:main/root": {
+    "criteria": {
+      "0": "2026-01-02 18:48:53 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/stone_fillet_knife": {
+    "criteria": {
+      "has_items": "2026-01-02 18:48:53 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/combat/neptunium_leggings": {
+    "criteria": {
+      "has_items": "2026-01-02 18:48:53 -0500"
+    },
+    "done": true
+  },
+  "undead_revamp2:theundeadchallenges": {
+    "criteria": {
+      "theundeadchallenges_0": "2026-01-02 18:48:53 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/combat/neptunium_bow": {
+    "criteria": {
+      "has_items": "2026-01-02 18:48:53 -0500"
+    },
+    "done": true
+  },
+  "repurposed_structures:root": {
+    "criteria": {
+      "always": "2026-01-02 18:48:53 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/golden_fishing_rod": {
+    "criteria": {
+      "has_gold": "2026-01-02 18:48:53 -0500"
+    },
+    "done": true
+  },
+  "travelersbackpack:root": {
+    "criteria": {
+      "tick": "2026-01-02 18:48:53 -0500"
+    },
+    "done": true
+  },
+  "dungeons_arise:wda_root": {
+    "criteria": {
+      "WDA": "2026-01-02 18:48:53 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/wooden_fillet_knife": {
+    "criteria": {
+      "has_items": "2026-01-02 18:48:53 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/aquaculture/neptunes_bounty": {
+    "criteria": {
+      "has_items": "2026-01-02 18:48:53 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/diamond_fillet_knife": {
+    "criteria": {
+      "has_items": "2026-01-02 18:48:53 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/iron_fillet_knife": {
+    "criteria": {
+      "has_items": "2026-01-02 18:48:53 -0500"
+    },
+    "done": true
+  },
+  "modern_industrialization:guidebook": {
+    "criteria": {
+      "logged_in": "2026-01-02 18:48:53 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/aquaculture/nether_star_hook": {
+    "criteria": {
+      "has_items": "2026-01-02 18:48:53 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/neptunium_axe": {
+    "criteria": {
+      "has_items": "2026-01-02 18:48:53 -0500"
+    },
+    "done": true
+  },
+  "betternether:root": {
+    "criteria": {
+      "welcome": "2026-01-02 18:48:54 -0500"
+    },
+    "done": true
+  },
+  "betterend:root": {
+    "criteria": {
+      "welcome": "2026-01-02 18:48:54 -0500"
+    },
+    "done": true
+  },
+  "tombstone:adventure/root": {
+    "criteria": {
+      "auto": "2026-01-02 18:48:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:river": "2026-01-02 19:04:51 -0500",
+      "minecraft:plains": "2026-01-02 18:48:54 -0500"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2026-01-02 18:49:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2026-01-02 18:49:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2026-01-02 18:49:25 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/mining_boat": {
+    "criteria": {
+      "in_water": "2026-01-02 18:49:25 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2026-01-02 18:49:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2026-01-02 18:49:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2026-01-02 18:49:25 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/canopy_boat": {
+    "criteria": {
+      "in_water": "2026-01-02 18:49:25 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/sorting_boat": {
+    "criteria": {
+      "in_water": "2026-01-02 18:49:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2026-01-02 18:49:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2026-01-02 18:49:25 -0500"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/transportation/saccharine_boat": {
+    "criteria": {
+      "in_water": "2026-01-02 18:49:25 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/twilight_oak_boat": {
+    "criteria": {
+      "in_water": "2026-01-02 18:49:25 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/time_boat": {
+    "criteria": {
+      "in_water": "2026-01-02 18:49:25 -0500"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/transportation/apricorn_boat": {
+    "criteria": {
+      "in_water": "2026-01-02 18:49:25 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/transformation_boat": {
+    "criteria": {
+      "in_water": "2026-01-02 18:49:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2026-01-02 18:49:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2026-01-02 18:49:25 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/dark_boat": {
+    "criteria": {
+      "in_water": "2026-01-02 18:49:25 -0500"
+    },
+    "done": true
+  },
+  "mca:root": {
+    "criteria": {
+      "village": "2026-01-02 18:50:20 -0500"
+    },
+    "done": true
+  },
+  "cobblemon:root": {
+    "criteria": {
+      "picked_starter": "2026-01-02 19:03:40 -0500"
+    },
+    "done": true
+  },
+  "mega_showdown:mega_showdown/root": {
+    "criteria": {
+      "root": "2026-01-02 19:03:40 -0500"
+    },
+    "done": true
+  },
+  "cobblemon:healing_machine": {
+    "criteria": {
+      "use_healing_machine": "2026-01-02 19:04:35 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3955
+}
