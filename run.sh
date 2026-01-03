@@ -1,1 +1,0 @@
-java @user_jvm_args.txt -jar arclight-forge-1.20.1-1.0.5-1a8925b1.jar nogui "$@"
