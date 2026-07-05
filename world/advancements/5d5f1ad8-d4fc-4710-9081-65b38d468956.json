@@ -1,0 +1,243 @@
+{
+  "aquaculture:recipes/combat/neptunium_helmet": {
+    "criteria": {
+      "has_items": "2026-07-04 19:40:40 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/combat/neptunium_sword": {
+    "criteria": {
+      "has_items": "2026-07-04 19:40:40 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/neptunium_fillet_knife": {
+    "criteria": {
+      "has_items": "2026-07-04 19:40:40 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-07-04 19:40:40 -0500"
+    },
+    "done": true
+  },
+  "adorabuild_structures:overworld_structures": {
+    "criteria": {
+      "always": "2026-07-04 19:40:40 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/neptunium_fishing_rod": {
+    "criteria": {
+      "has_items": "2026-07-04 19:40:40 -0500"
+    },
+    "done": true
+  },
+  "betternether:root": {
+    "criteria": {
+      "welcome": "2026-07-04 19:40:45 -0500"
+    },
+    "done": true
+  },
+  "betterend:root": {
+    "criteria": {
+      "welcome": "2026-07-04 19:40:45 -0500"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/bouquet": {
+    "criteria": {
+      "has_item": "2026-07-04 19:40:40 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/gold_fillet_knife": {
+    "criteria": {
+      "has_items": "2026-07-04 19:40:40 -0500"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:bornin_chaos": {
+    "criteria": {
+      "bornin_chaos_0": "2026-07-04 19:40:40 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/aquaculture/tackle_box": {
+    "criteria": {
+      "has_items": "2026-07-04 19:40:40 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/iron_fishing_rod": {
+    "criteria": {
+      "has_iron": "2026-07-04 19:40:40 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/food/turtle_soup": {
+    "criteria": {
+      "has_items": "2026-07-04 19:40:40 -0500"
+    },
+    "done": true
+  },
+  "betterdeserttemples:root": {
+    "criteria": {
+      "always": "2026-07-04 19:40:40 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/neptunium_hoe": {
+    "criteria": {
+      "has_items": "2026-07-04 19:40:40 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/neptunium_shovel": {
+    "criteria": {
+      "has_items": "2026-07-04 19:40:40 -0500"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_illager_campsite": {
+    "criteria": {
+      "location0": "2026-07-04 19:40:45 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/diamond_fishing_rod": {
+    "criteria": {
+      "has_diamond": "2026-07-04 19:40:40 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/neptunium_pickaxe": {
+    "criteria": {
+      "has_items": "2026-07-04 19:40:40 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/combat/neptunium_chestplate": {
+    "criteria": {
+      "has_items": "2026-07-04 19:40:40 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/combat/neptunium_boots": {
+    "criteria": {
+      "has_items": "2026-07-04 19:40:40 -0500"
+    },
+    "done": true
+  },
+  "superbwarfare:main/root": {
+    "criteria": {
+      "0": "2026-07-04 19:40:40 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/stone_fillet_knife": {
+    "criteria": {
+      "has_items": "2026-07-04 19:40:40 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/combat/neptunium_leggings": {
+    "criteria": {
+      "has_items": "2026-07-04 19:40:40 -0500"
+    },
+    "done": true
+  },
+  "undead_revamp2:theundeadchallenges": {
+    "criteria": {
+      "theundeadchallenges_0": "2026-07-04 19:40:40 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/combat/neptunium_bow": {
+    "criteria": {
+      "has_items": "2026-07-04 19:40:40 -0500"
+    },
+    "done": true
+  },
+  "repurposed_structures:root": {
+    "criteria": {
+      "always": "2026-07-04 19:40:40 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/golden_fishing_rod": {
+    "criteria": {
+      "has_gold": "2026-07-04 19:40:40 -0500"
+    },
+    "done": true
+  },
+  "travelersbackpack:root": {
+    "criteria": {
+      "tick": "2026-07-04 19:40:40 -0500"
+    },
+    "done": true
+  },
+  "dungeons_arise:wda_root": {
+    "criteria": {
+      "WDA": "2026-07-04 19:40:40 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/wooden_fillet_knife": {
+    "criteria": {
+      "has_items": "2026-07-04 19:40:40 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/aquaculture/neptunes_bounty": {
+    "criteria": {
+      "has_items": "2026-07-04 19:40:40 -0500"
+    },
+    "done": true
+  },
+  "tombstone:adventure/root": {
+    "criteria": {
+      "auto": "2026-07-04 19:40:45 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/diamond_fillet_knife": {
+    "criteria": {
+      "has_items": "2026-07-04 19:40:40 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/iron_fillet_knife": {
+    "criteria": {
+      "has_items": "2026-07-04 19:40:40 -0500"
+    },
+    "done": true
+  },
+  "modern_industrialization:guidebook": {
+    "criteria": {
+      "logged_in": "2026-07-04 19:40:40 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/aquaculture/nether_star_hook": {
+    "criteria": {
+      "has_items": "2026-07-04 19:40:40 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:savanna": "2026-07-04 19:40:45 -0500"
+    },
+    "done": false
+  },
+  "aquaculture:recipes/tools/neptunium_axe": {
+    "criteria": {
+      "has_items": "2026-07-04 19:40:40 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3955
+}

@@ -169,9 +169,9 @@
 	#(Expression): Chance for neutral mobs to be aggressive
 	"Neutral Aggressive Chance" = "0.05"
 	#(Expression): Chance for mobs to be able to summon an aquatic mount
-	"Guardian Chance" = "0.5"
+	"Guardian Chance" = "0.0"
 	#(Expression): Chance for mobs to be able to summon a flying mount
-	"Flying Chance" = "0.5"
+	"Flying Chance" = "0.0"
 	#Set this to true to allow tnt thrown by mobs to destroy blocks
 	"TNT Block Destruction" = false
 	#(Expression): Chance for a mob to ignore line of sight
