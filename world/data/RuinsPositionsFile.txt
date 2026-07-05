@@ -9,7 +9,42 @@
 # It should also prevent Ruins re-spawning under any circumstances. Areas registered in here block any overlapping new Ruins.
 # Empty lines and those prefixed by '#' are ignored by the parser. Don't save notes in here, file gets wiped upon flushing.
 #
+-137 77 64 -130 83 71 randomenchantmenthut.tml
 -134 63 -40 -125 73 -31 fountain.tml
+-125 75 -444 -120 102 -439 balloontest.tml
+-53 62 -12 -46 72 -6 tikihead2.tml
+-52 67 -453 -23 86 -424 largemodern.tml
+-38 57 -228 -17 86 -207 skeletontowermedium.tml
+-34 63 -353 -21 70 -341 ruinedbuilding.tml
+-12 63 -628 -2 70 -617 ZombieHut.tml
 -12 58 -141 -7 85 -136 balloontest.tml
 -8 65 119 -1 78 124 tikihead3.tml
+31 61 -543 40 68 -538 mininghut.tml
+61 52 -454 72 62 -445 randomoreveinsmall.tml
+64 65 99 70 71 105 randomplants.tml
+67 55 -624 73 61 -618 randomplants.tml
+78 67 -210 84 73 -204 randomplants.tml
+95 61 -367 101 72 -360 tikihead1.tml
 96 62 0 105 68 6 randomruins2.tml
+101 73 -112 112 80 -102 ZombieHut.tml
+141 67 -477 146 94 -472 balloontest.tml
+153 51 -267 164 57 -258 randomruinsmall1.tml
+170 82 -649 177 93 -643 tikihead1.tml
+177 67 19 184 78 25 tikihead1.tml
+187 72 -553 196 82 -544 fountain.tml
+189 55 -355 196 61 -348 randomenchantmenthut.tml
+198 65 -184 203 72 -175 mininghut.tml
+200 64 -108 232 103 -76 castlesmall.tml
+211 53 -479 217 63 -472 tikihead2.tml
+262 65 -367 281 91 -348 burrow.tml
+280 70 -198 285 97 -193 balloontest.tml
+281 58 -616 288 71 -611 tikihead3.tml
+298 60 -474 311 67 -462 ruinedbuilding.tml
+318 67 -278 323 80 -271 tikihead3.tml
+375 60 -563 386 67 -553 ZombieHut.tml
+387 69 -439 396 79 -428 randomoreveinsmall.tml
+388 69 -258 395 80 -252 tikihead1.tml
+400 73 -168 416 88 -153 smallspiderhouse.tml
+475 69 -354 482 75 -347 randomenchantmenthut.tml
+534 61 -265 545 68 -255 ZombieHut.tml
+554 13 -152 563 23 -141 randomoreveinsmall.tml

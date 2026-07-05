@@ -17,7 +17,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
-  login: 1783212040618
+  logout: 1783222362877
+  login: 1783215064775
 money: '0'
 last-account-name: kiri22
+logoutlocation:
+  world: f8aa708e-1c94-4d47-b7d2-9c670b80ab45
+  world-name: world
+  x: 449.11335480285146
+  y: 84.0
+  z: -263.7445095878337
+  yaw: -87.82821655273438
+  pitch: 15.580389022827148

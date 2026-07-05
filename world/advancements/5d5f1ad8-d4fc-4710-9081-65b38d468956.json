@@ -35,18 +35,6 @@
     },
     "done": true
   },
-  "betternether:root": {
-    "criteria": {
-      "welcome": "2026-07-04 19:40:45 -0500"
-    },
-    "done": true
-  },
-  "betterend:root": {
-    "criteria": {
-      "welcome": "2026-07-04 19:40:45 -0500"
-    },
-    "done": true
-  },
   "mca:recipes/misc/bouquet": {
     "criteria": {
       "has_item": "2026-07-04 19:40:40 -0500"
@@ -98,12 +86,6 @@
   "aquaculture:recipes/tools/neptunium_shovel": {
     "criteria": {
       "has_items": "2026-07-04 19:40:40 -0500"
-    },
-    "done": true
-  },
-  "dungeons_arise:find_illager_campsite": {
-    "criteria": {
-      "location0": "2026-07-04 19:40:45 -0500"
     },
     "done": true
   },
@@ -197,12 +179,6 @@
     },
     "done": true
   },
-  "tombstone:adventure/root": {
-    "criteria": {
-      "auto": "2026-07-04 19:40:45 -0500"
-    },
-    "done": true
-  },
   "aquaculture:recipes/tools/diamond_fillet_knife": {
     "criteria": {
       "has_items": "2026-07-04 19:40:40 -0500"
@@ -227,15 +203,263 @@
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:savanna": "2026-07-04 19:40:45 -0500"
-    },
-    "done": false
-  },
   "aquaculture:recipes/tools/neptunium_axe": {
     "criteria": {
       "has_items": "2026-07-04 19:40:40 -0500"
+    },
+    "done": true
+  },
+  "betternether:root": {
+    "criteria": {
+      "welcome": "2026-07-04 19:40:45 -0500"
+    },
+    "done": true
+  },
+  "betterend:root": {
+    "criteria": {
+      "welcome": "2026-07-04 19:40:45 -0500"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_illager_campsite": {
+    "criteria": {
+      "location0": "2026-07-04 19:40:45 -0500"
+    },
+    "done": true
+  },
+  "tombstone:adventure/root": {
+    "criteria": {
+      "auto": "2026-07-04 19:40:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:river": "2026-07-04 20:34:36 -0500",
+      "minecraft:savanna": "2026-07-04 19:40:45 -0500",
+      "minecraft:plains": "2026-07-04 20:34:37 -0500"
+    },
+    "done": false
+  },
+  "tombstone:adventure/first_grave": {
+    "criteria": {
+      "coded_trigger": "2026-07-04 20:26:12 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2026-07-04 20:26:12 -0500"
+    },
+    "done": true
+  },
+  "tombstone:recipe/enchanted_grave_key": {
+    "criteria": {
+      "has_ingredient": "2026-07-04 20:26:16 -0500"
+    },
+    "done": true
+  },
+  "tombstone:adventure/cancel_ghostly_shape": {
+    "criteria": {
+      "coded_trigger": "2026-07-04 20:26:28 -0500"
+    },
+    "done": true
+  },
+  "tombstone:recipe/green_marble": {
+    "criteria": {
+      "has_ingredient": "2026-07-04 20:26:30 -0500"
+    },
+    "done": true
+  },
+  "tombstone:recipe/dark_marble": {
+    "criteria": {
+      "has_ingredient": "2026-07-04 20:26:30 -0500"
+    },
+    "done": true
+  },
+  "tombstone:recipe/dust_of_vanishing": {
+    "criteria": {
+      "has_ingredient": "2026-07-04 20:26:30 -0500"
+    },
+    "done": true
+  },
+  "tombstone:recipe/fishing_rod_of_misadventure": {
+    "criteria": {
+      "has_ingredient": "2026-07-04 20:26:30 -0500"
+    },
+    "done": true
+  },
+  "tombstone:recipe/ankh_of_prayer": {
+    "criteria": {
+      "has_ingredient": "2026-07-04 20:26:30 -0500"
+    },
+    "done": true
+  },
+  "tombstone:recipe/impregnated_diamond": {
+    "criteria": {
+      "has_ingredient": "2026-07-04 20:26:30 -0500"
+    },
+    "done": true
+  },
+  "tombstone:recipe/blue_marble": {
+    "criteria": {
+      "has_ingredient": "2026-07-04 20:26:30 -0500"
+    },
+    "done": true
+  },
+  "tombstone:recipe/smoke_ball": {
+    "criteria": {
+      "has_ingredient": "2026-07-04 20:26:30 -0500"
+    },
+    "done": true
+  },
+  "tombstone:recipe/dust_of_frost": {
+    "criteria": {
+      "has_ingredient": "2026-07-04 20:26:30 -0500"
+    },
+    "done": true
+  },
+  "tombstone:recipe/bone_needle": {
+    "criteria": {
+      "has_ingredient": "2026-07-04 20:26:30 -0500"
+    },
+    "done": true
+  },
+  "tombstone:recipe/carmin_marble": {
+    "criteria": {
+      "has_ingredient": "2026-07-04 20:26:30 -0500"
+    },
+    "done": true
+  },
+  "tombstone:recipe/white_marble": {
+    "criteria": {
+      "has_ingredient": "2026-07-04 20:26:30 -0500"
+    },
+    "done": true
+  },
+  "tombstone:recipe/grave_plate": {
+    "criteria": {
+      "has_ingredient": "2026-07-04 20:26:30 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2026-07-04 20:33:43 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2026-07-04 20:33:43 -0500"
+    },
+    "done": true
+  },
+  "mca:root": {
+    "criteria": {
+      "village": "2026-07-04 20:33:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2026-07-04 20:33:43 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/mining_boat": {
+    "criteria": {
+      "in_water": "2026-07-04 20:33:43 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2026-07-04 20:33:43 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2026-07-04 20:33:43 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2026-07-04 20:33:43 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/canopy_boat": {
+    "criteria": {
+      "in_water": "2026-07-04 20:33:43 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/sorting_boat": {
+    "criteria": {
+      "in_water": "2026-07-04 20:33:43 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2026-07-04 20:33:43 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2026-07-04 20:33:43 -0500"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/transportation/saccharine_boat": {
+    "criteria": {
+      "in_water": "2026-07-04 20:33:43 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/twilight_oak_boat": {
+    "criteria": {
+      "in_water": "2026-07-04 20:33:43 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/time_boat": {
+    "criteria": {
+      "in_water": "2026-07-04 20:33:43 -0500"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/transportation/apricorn_boat": {
+    "criteria": {
+      "in_water": "2026-07-04 20:33:43 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/transformation_boat": {
+    "criteria": {
+      "in_water": "2026-07-04 20:33:43 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2026-07-04 20:33:43 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2026-07-04 20:33:43 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/dark_boat": {
+    "criteria": {
+      "in_water": "2026-07-04 20:33:43 -0500"
     },
     "done": true
   },
